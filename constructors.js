@@ -15,3 +15,6 @@ function makePerson(paramIsHappy, paramDishesMade, paramName)
 
 // Write a Constructor for a Meal Here
 //Include 3 attributes and 1 Method
+
+
+// Make instances of both of the objects
