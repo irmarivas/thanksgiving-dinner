@@ -29,3 +29,6 @@ function makeMeal(paramIsTasty, paramHoursToCook, paramName)
 
 
 // Make instances of both of the objects
+
+const person1 = new makePerson(true, 3, `Irma`);
+const meal1 = new makeMeal(true, 3, `turkey`);
