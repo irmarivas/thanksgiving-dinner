@@ -16,5 +16,16 @@ function makePerson(paramIsHappy, paramDishesMade, paramName)
 // Write a Constructor for a Meal Here
 //Include 3 attributes and 1 Method
 
+function makeMeal(paramIsTasty, paramHoursToCook, paramName)
+{
+    this.attribIsTasty  = paramIsTasty;
+    this.attribHoursToCook = paramHoursToCook;
+    this.attribName = paramName;
+    this.methodExpires = function()
+    {
+        return `${this.attribName} is expired`;
+    };
+}
+
 
 // Make instances of both of the objects
